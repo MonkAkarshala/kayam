@@ -1,19 +1,19 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
-    	<!-- NAME: FLYER -->
+        <!-- NAME: 1 COLUMN - FULL WIDTH -->
         <!--[if gte mso 15]>
-		<xml>
-			<o:OfficeDocumentSettings>
-			<o:AllowPNG/>
-			<o:PixelsPerInch>96</o:PixelsPerInch>
-			</o:OfficeDocumentSettings>
-		</xml>
-		<![endif]-->
-		<meta charset="UTF-8">
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>*|MC:SUBJECT|*</title>
+        <title>*|MC:SUBJECT|*</title>
         
     <style type="text/css">
 		p{
@@ -82,6 +82,9 @@
 			font-weight:inherit !important;
 			line-height:inherit !important;
 		}
+		.templateContainer{
+			max-width:600px !important;
+		}
 		a.mcnButton{
 			display:block;
 		}
@@ -99,15 +102,15 @@
 		}
 	/*
 	@tab Page
-	@section background style
+	@section Background Style
 	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
 	*/
 		body,#bodyTable{
-			/*@editable*/background-color:#363636;
+			/*@editable*/background-color:#FAFAFA;
 		}
 	/*
 	@tab Page
-	@section background style
+	@section Background Style
 	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
 	*/
 		#bodyCell{
@@ -115,62 +118,62 @@
 		}
 	/*
 	@tab Page
-	@section heading 1
+	@section Heading 1
 	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
 	@style heading 1
 	*/
 		h1{
-			/*@editable*/color:#543680 !important;
-			/*@editable*/font-family:'Noticia Text', Georgia, 'Times New Roman', serif;
-			/*@editable*/font-size:40px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			/*@editable*/letter-spacing:-1px;
-			/*@editable*/text-align:center;
-		}
-	/*
-	@tab Page
-	@section heading 2
-	@tip Set the styling for all second-level headings in your emails.
-	@style heading 2
-	*/
-		h2{
-			/*@editable*/color:#404040 !important;
-			/*@editable*/font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
 			/*@editable*/font-size:26px;
 			/*@editable*/font-style:normal;
 			/*@editable*/font-weight:bold;
 			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:-.75px;
+			/*@editable*/letter-spacing:normal;
 			/*@editable*/text-align:left;
 		}
 	/*
 	@tab Page
-	@section heading 3
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
 	@tip Set the styling for all third-level headings in your emails.
 	@style heading 3
 	*/
 		h3{
-			/*@editable*/color:#606060 !important;
+			/*@editable*/color:#202020;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:18px;
+			/*@editable*/font-size:20px;
 			/*@editable*/font-style:normal;
 			/*@editable*/font-weight:bold;
 			/*@editable*/line-height:125%;
-			/*@editable*/letter-spacing:-.5px;
+			/*@editable*/letter-spacing:normal;
 			/*@editable*/text-align:left;
 		}
 	/*
 	@tab Page
-	@section heading 4
+	@section Heading 4
 	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
 	@style heading 4
 	*/
 		h4{
-			/*@editable*/color:#808080 !important;
-			/*@editable*/font-family:'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			/*@editable*/font-size:16px;
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
 			/*@editable*/font-style:normal;
 			/*@editable*/font-weight:bold;
 			/*@editable*/line-height:125%;
@@ -179,142 +182,162 @@
 		}
 	/*
 	@tab Preheader
-	@section preheader style
+	@section Preheader Style
 	@tip Set the background color and borders for your email's preheader area.
 	*/
 		#templatePreheader{
-			/*@editable*/background-color:#141313;
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
 			/*@editable*/border-top:0;
-			/*@editable*/border-bottom:1px solid #D5D5D5;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
 		}
 	/*
 	@tab Preheader
-	@section preheader text
+	@section Preheader Text
 	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
 	*/
-		.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{
-			/*@editable*/color:#606060;
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/color:#656565;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:11px;
-			/*@editable*/line-height:125%;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
 		}
 	/*
 	@tab Preheader
-	@section preheader link
-	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	@section Preheader Link
+	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
 	*/
-		.preheaderContainer .mcnTextContent a{
-			/*@editable*/color:#26ABE2;
+		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+			/*@editable*/color:#656565;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
 	/*
 	@tab Header
-	@section header style
+	@section Header Style
 	@tip Set the background color and borders for your email's header area.
 	*/
 		#templateHeader{
-			/*@editable*/background-color:#141212;
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
 			/*@editable*/border-top:0;
 			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:0;
 		}
 	/*
 	@tab Header
-	@section header text
+	@section Header Text
 	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
 	*/
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			/*@editable*/color:#606060;
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:15px;
+			/*@editable*/font-size:16px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
 		}
 	/*
 	@tab Header
-	@section header link
+	@section Header Link
 	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
 	*/
-		.headerContainer .mcnTextContent a{
-			/*@editable*/color:#26ABE2;
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#007C89;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
 	/*
 	@tab Body
-	@section body style
+	@section Body Style
 	@tip Set the background color and borders for your email's body area.
 	*/
 		#templateBody{
-			/*@editable*/background-color:#ebe3e3;
-			/*@editable*/border-top:1px none ;
-			/*@editable*/border-bottom:0;
-		}
-	/*
-	@tab Body
-	@section body container
-	@tip Set the background color and border for your email's body text container.
-	*/
-		#bodyBackground{
 			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/border:1px none #D5D5D5;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
 		}
 	/*
 	@tab Body
-	@section body text
+	@section Body Text
 	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
 	*/
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-			/*@editable*/color:#606060;
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:15px;
+			/*@editable*/font-size:16px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
 		}
 	/*
 	@tab Body
-	@section body link
+	@section Body Link
 	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
 	*/
-		.bodyContainer .mcnTextContent a{
-			/*@editable*/color:#26ABE2;
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#007C89;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
 	/*
 	@tab Footer
-	@section footer style
+	@section Footer Style
 	@tip Set the background color and borders for your email's footer area.
 	*/
 		#templateFooter{
-			/*@editable*/background-color:#363636;
-			/*@editable*/border-top:1px solid #000000;
+			/*@editable*/background-color:#fafafa;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+			/*@editable*/border-top:0;
 			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
 		}
 	/*
 	@tab Footer
-	@section footer text
+	@section Footer Text
 	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
 	*/
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-			/*@editable*/color:#CCCCCC;
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#656565;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:11px;
-			/*@editable*/line-height:125%;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
 		}
 	/*
 	@tab Footer
-	@section footer link
+	@section Footer Link
 	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 	*/
-		.footerContainer .mcnTextContent a{
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
 			/*@editable*/color:#ae2220;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
-	@media only screen and (max-width: 480px){
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
 		body,table,td,p,a,li,blockquote{
 			-webkit-text-size-adjust:none !important;
 		}
@@ -326,9 +349,8 @@
 		}
 
 }	@media only screen and (max-width: 480px){
-		.templateContainer{
-			max-width:600px !important;
-			width:100% !important;
+		#bodyCell{
+			padding-top:10px !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -338,7 +360,6 @@
 
 }	@media only screen and (max-width: 480px){
 		.mcnImage{
-			height:auto !important;
 			width:100% !important;
 		}
 
@@ -407,18 +428,18 @@
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
-	@section heading 1
+	@section Heading 1
 	@tip Make the first-level headings larger in size for better readability on small screens.
 	*/
 		h1{
-			/*@editable*/font-size:24px !important;
+			/*@editable*/font-size:22px !important;
 			/*@editable*/line-height:125% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
-	@section heading 2
+	@section Heading 2
 	@tip Make the second-level headings larger in size for better readability on small screens.
 	*/
 		h2{
@@ -429,7 +450,7 @@
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
-	@section heading 3
+	@section Heading 3
 	@tip Make the third-level headings larger in size for better readability on small screens.
 	*/
 		h3{
@@ -440,12 +461,12 @@
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
-	@section heading 4
+	@section Heading 4
 	@tip Make the fourth-level headings larger in size for better readability on small screens.
 	*/
 		h4{
 			/*@editable*/font-size:16px !important;
-			/*@editable*/line-height:125% !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -455,8 +476,8 @@
 	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
 	*/
 		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/line-height:125% !important;
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -475,9 +496,9 @@
 	@section Preheader Text
 	@tip Make the preheader text larger in size for better readability on small screens.
 	*/
-		.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
 			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:115% !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -486,9 +507,9 @@
 	@section Header Text
 	@tip Make the header text larger in size for better readability on small screens.
 	*/
-		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/line-height:125% !important;
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
@@ -497,24 +518,24 @@
 	@section Body Text
 	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
 	*/
-		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-			/*@editable*/font-size:18px !important;
-			/*@editable*/line-height:125% !important;
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }	@media only screen and (max-width: 480px){
 	/*
 	@tab Mobile Styles
-	@section footer text
-	@tip Make the body content text larger in size for better readability on small screens.
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
 	*/
-		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
 			/*@editable*/font-size:14px !important;
-			/*@editable*/line-height:115% !important;
+			/*@editable*/line-height:150% !important;
 		}
 
 }</style></head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <body>
         <!--*|IF:MC_PREVIEW_TEXT|*-->
         <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
         <!--*|END:IF|*-->
@@ -525,14 +546,15 @@
                         <!-- BEGIN TEMPLATE // -->
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                                <td align="center" valign="top">
-                                    <!-- BEGIN PREHEADER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                <td align="center" valign="top" id="templatePreheader">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="600" style="width:600px;">
+                                    <![endif]-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                                         <tr>
-                                        	<td align="center" valign="top">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="templateContainer">
-                                                    <tr>
-                                                        <td valign="top" class="preheaderContainer" style="padding-top:10px; padding-bottom:10px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                            <td valign="top" class="preheaderContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
@@ -547,7 +569,7 @@
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; text-align: center;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; font-family: Georgia, Times, &quot;Times New Roman&quot;, serif; text-align: center;">
                         
                             <a href="*|ARCHIVE|*" target="_blank">View this email in your browser</a>
                         </td>
@@ -565,76 +587,25 @@
         </tr>
     </tbody>
 </table></td>
-                                                    </tr>
-                                                </table>
-                                            </td>                                            
                                         </tr>
                                     </table>
-                                    <!-- // END PREHEADER -->
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" valign="top">
-                                    <!-- BEGIN HEADER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                <td align="center" valign="top" id="templateHeader">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="600" style="width:600px;">
+                                    <![endif]-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                                         <tr>
-                                            <td align="center" valign="top">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="templateContainer">
-                                                    <tr>
-                                                        <td valign="top" class="headerContainer" style="padding-top:15px; padding-bottom:10px;"></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // END HEADER -->
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" valign="top">
-                                    <!-- BEGIN BODY // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
-                                        <tr>
-                                            <td align="center" valign="top" style="padding-top:10px; padding-right:10px; padding-bottom:5px; padding-left:10px;">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="templateContainer">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" id="bodyBackground">
-                                                                <tr>
-                                                                    <td valign="top" class="bodyContainer" style="padding-top:10px; padding-bottom:10px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
-				<![endif]-->
-			    
-				<!--[if mso]>
-				<td valign="top" width="600" style="width:600px;">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
-                    <tbody><tr>
-                        
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                        
-                            <h1><span style="color:#ae2220">Apni subah ko khushnuma banaein KAYAM ke saath</span></h1>
-
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if mso]>
-				</td>
-				<![endif]-->
-                
-				<!--[if mso]>
-				</tr>
-				</table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+                                            <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
                 <td valign="top" style="padding:9px" class="mcnImageBlockInner">
@@ -643,7 +614,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/debce69553e4329fa3d5ff9fd/images/f20e0622-7e6f-4be4-8b14-2683b9ca46f9.jpg" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/debce69553e4329fa3d5ff9fd/images/e23bbd09-f13a-4129-aa08-7e6f7de98dc9.png" width="300" style="max-width:300px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
                                     
                                 
                             </td>
@@ -652,39 +623,76 @@
                 </td>
             </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
-    <tbody class="mcnTextBlockOuter">
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top" id="templateBody">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="600" style="width:600px;">
+                                    <![endif]-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                                        <tr>
+                                            <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/debce69553e4329fa3d5ff9fd/images/79303a63-0d96-47a3-b037-78ee6cd860e9.jpg" width="564" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
+    <!--[if gte mso 9]>
+	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+	<![endif]-->
+	<tbody class="mcnBoxedTextBlockOuter">
         <tr>
-            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
-              	<!--[if mso]>
-				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-				<tr>
+            <td valign="top" class="mcnBoxedTextBlockInner">
+                
+				<!--[if gte mso 9]>
+				<td align="center" valign="top" ">
 				<![endif]-->
-			    
-				<!--[if mso]>
-				<td valign="top" width="599" style="width:599px;">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
                         
-                            <div style="text-align: center;">Apne din ki khushnuma shuruat karein Kayam Churan ke saath jo aapko chutkara dilata hai constipation, acidity, aur anya digestive issues se.<br>
-<br>
-Kayam Churna ek Ayurvedic mishran hai jo all over India available hai. 700 se adhik stockists ke paas upladbdh, Kayam Churna ka daily production 80,000 bottles hai.<br>
-<br>
-Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth Brothers Ayurvedic products ke liye prasiddh hai.</div>
-
+                            <table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #AE2220;">
+                                <tbody><tr>
+                                    <td valign="top" class="mcnTextContent" style="padding: 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;">
+                                        <span style="font-size:32px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif"><em><strong>Raat ko khao, subah aaram paao</strong></em></span></span>
+                                    </td>
+                                </tr>
+                            </tbody></table>
                         </td>
                     </tr>
                 </tbody></table>
-				<!--[if mso]>
+				<!--[if gte mso 9]>
 				</td>
 				<![endif]-->
                 
-				<!--[if mso]>
-				</tr>
-				</table>
+				<!--[if gte mso 9]>
+                </tr>
+                </table>
 				<![endif]-->
             </td>
         </tr>
@@ -693,15 +701,55 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
     <tbody class="mcnButtonBlockOuter">
         <tr>
             <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
-                <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #AE2220;">
+                <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border: 3px ridge #AE2220;border-radius: 3px;background-color: #FFFFFF;">
                     <tbody>
                         <tr>
-                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 15px;">
-                                <a class="mcnButton " title="Visit Website" href="https://shethbrothers.co/" target="_self" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Visit Website</a>
+                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; padding: 15px;">
+                                <a class="mcnButton " title="LEARN MORE" href="https://shethbrothers.co/" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #AE2220;">LEARN MORE</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+    <tbody class="mcnCaptionBlockOuter">
+        <tr>
+            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+                
+
+<table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%">
+    <tbody><tr>
+        <td valign="top" class="mcnCaptionLeftContentInner" style="padding:0 9px ;">
+            <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="176">
+                <tbody><tr>
+                    <td class="mcnCaptionLeftImageContent" align="right" valign="top">
+                    
+                        
+                        <img alt="" src="https://gallery.mailchimp.com/debce69553e4329fa3d5ff9fd/images/81b053f7-8a60-4b3b-b87a-47fdf37386d6.png" width="176" style="max-width: 200px; border-radius: 0%;" class="mcnImage">
+                        
+                    
+                    </td>
+                </tr>
+            </tbody></table>
+            <table class="mcnCaptionLeftTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="352">
+                <tbody><tr>
+                    <td valign="top" class="mcnTextContent" style="text-align: left;">
+                        <span style="font-size:20px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif"><em>Kayam Churna aapki subah ko pleasant banata hai. Ab aapko anya upaay dhundhne ki jarurat nahi hai. Sirf Kayam Churna ka 200gm pack ghar lao. Overnight constipation se chhutkara paao!<br>
+<br>
+Kayam Syrup Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth Brothers Ayurvedic products ke liye prasiddh hai.</em></span></span>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+
             </td>
         </tr>
     </tbody>
@@ -740,7 +788,9 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
                         
                         <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                         
-                            <div style="text-align: center;"><span style="font-size:32px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif"><strong>About Us</strong></span></span></div>
+                            <h1><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif">About us</span></h1>
+
+<p><span style="font-size:18px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif">1970 mein stapith kiye gaye Sheth Brothers ne Ayurvedic industry mein ke naya marg nirmaan kiya hai. Sheth Brothers athiuttam Ayurvedic products banate hai, jo aapke digestive issues ko solve kar ke, aapki jeevan mein santushti laata hai.</span></span></p>
 
                         </td>
                     </tr>
@@ -756,89 +806,26 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
-                
-
-
-
-<table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%">
-    <tbody><tr>
-        <td valign="top" class="mcnCaptionRightContentInner" style="padding:0 9px ;">
-            <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264">
-                <tbody><tr>
-                    <td class="mcnCaptionRightImageContent" align="left" valign="top">
-                    
-                        
-
-                        <img alt="" src="https://gallery.mailchimp.com/debce69553e4329fa3d5ff9fd/images/e23bbd09-f13a-4129-aa08-7e6f7de98dc9.png" width="264" style="max-width:300px;" class="mcnImage">
-                        
-
-                    
-                    </td>
-                </tr>
-            </tbody></table>
-            <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264">
-                <tbody><tr>
-                    <td valign="top" class="mcnTextContent">
-                        <span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif">1970 mein stapith kiye gaye Sheth Brothers ne Ayurvedic industry mein ke naya marg nirmaan kiya hai. Sheth Brothers athiuttam Ayurvedic products banate hai, jo aapke digestive issues ko solve kar ke, aapki jeevan mein santushti laata hai.</span>
-                    </td>
-                </tr>
-            </tbody></table>
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
-    <tbody class="mcnButtonBlockOuter">
-        <tr>
-            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
-                <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #AE2220;">
-                    <tbody>
-                        <tr>
-                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 15px;">
-                                <a class="mcnButton " title="Visit Store" href="https://shethbrothersestore.com/" target="_self" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Visit Store</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </tbody>
 </table></td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <img src="https://cdn-images.mailchimp.com/template_images/gallery/couponshadow.png" height="20" width="600" class="mcnImage" style="display:block; max-width:560px;">
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
                                         </tr>
                                     </table>
-                                    <!-- // END BODY -->
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center" valign="top" style="padding-bottom:40px;">
-                                    <!-- BEGIN FOOTER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                <td align="center" valign="top" id="templateFooter">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="600" style="width:600px;">
+                                    <![endif]-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                                         <tr>
-                                            <td align="center" valign="top">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="templateContainer">
-                                                    <tr>
-                                                        <td valign="top" class="footerContainer" style="padding-top:10px; padding-bottom:10px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width:100%;">
+                                            <td valign="top" class="footerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width:100%;">
     <tbody class="mcnFollowBlockOuter">
         <tr>
             <td align="center" valign="top" style="padding:9px" class="mcnFollowBlockInner">
@@ -871,7 +858,7 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
                                                                         <tbody><tr>
                                                                             
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                    <a href="https://www.facebook.com/ShethBrothersIndia/?__tn__=%2Cd%2CP-R&amp;eid=ARB18hJ-UZI9lfFLCV594kkkxAl497m8EwaUaoPDSv-nPfNMaGzZuGxA-z5YoRgt_lCE6iuinPspHUmN" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display:block;" height="24" width="24" class=""></a>
+                                                                                    <a href="https://twitter.com/brothers_sheth" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -903,7 +890,7 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
                                                                         <tbody><tr>
                                                                             
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                    <a href="https://twitter.com/brothers_sheth" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style="display:block;" height="24" width="24" class=""></a>
+                                                                                    <a href="https://www.facebook.com/ShethBrothersIndia/?__tn__=%2Cd%2CP-R&amp;eid=ARB18hJ-UZI9lfFLCV594kkkxAl497m8EwaUaoPDSv-nPfNMaGzZuGxA-z5YoRgt_lCE6iuinPspHUmN" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -969,6 +956,24 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
             </td>
         </tr>
     </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px 25px;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #EEEEEE;">
+                    <tbody><tr>
+                        <td>
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
 </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
@@ -984,7 +989,7 @@ Kayam Churna Sheth Brothers ka product hai. Ayurveda ki taraf committed, Sheth B
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;color: #222222;font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 11px;font-style: italic;font-weight: bold;">
                         
                             Copyright © 2019 Sheth Brothers, All Rights Reserved<br>
 Read our Terms of Service <a href="https://shethbrothers.co/">here</a>.<br>
@@ -1007,12 +1012,13 @@ Sheth Brothers | <a href="https://goo.gl/maps/WTjy55FsHT5p795F6">30, G. I. D. C.
         </tr>
     </tbody>
 </table></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
                                         </tr>
                                     </table>
-                                    <!-- // END FOOTER -->
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                         </table>
